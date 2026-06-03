@@ -9,7 +9,8 @@ Bluetooth /status  # Show current Bluetooth status
 Bluetooth /help    # Show available commands you can use
 ```
 ### To build the source code
-Ensure you have .NET 10 installed from https://dotnet.microsoft.com/en-us/download/dotnet/10.0
+Ensure you have .NET 10 SDK installed from https://dotnet.microsoft.com/en-us/download/dotnet/10.0
+
 Then, run the following command below:
 ```bash
 dotnet publish -c Release

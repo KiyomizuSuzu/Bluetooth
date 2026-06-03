@@ -5,10 +5,10 @@ This is a simple command-line control for Bluetooth made in C#.
 ## Commands
 
 ```bash
-bluetooth.exe /on      # Turn Bluetooth on
-bluetooth.exe /off     # Turn Bluetooth off
-bluetooth.exe /status  # Show current Bluetooth status
-bluetooth.exe /help    # Show available commands you can use
+Bluetooth /on      # Turn Bluetooth on
+Bluetooth /off     # Turn Bluetooth off
+Bluetooth /status  # Show current Bluetooth status
+Bluetooth /help    # Show available commands you can use
 ```
 
 # AGPL-3.0 license

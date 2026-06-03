@@ -11,7 +11,7 @@ Bluetooth /help    # Show available commands you can use
 ### To build the source code
 Ensure you have .NET 10 SDK installed from https://dotnet.microsoft.com/en-us/download/dotnet/10.0
 
-Then, open a console in the repository root directory and run the following command:
+Then, open up Powershell in the repository root directory and run the following command:
 ```powershell
 dotnet publish -c Release
 ```

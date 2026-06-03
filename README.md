@@ -8,4 +8,4 @@ Simple command-line control for Bluetooth.
 bluetooth /on      # Turn Bluetooth on
 bluetooth /off     # Turn Bluetooth off
 bluetooth /status  # Show current Bluetooth status
-bluetooth /help    # Show help message
+bluetooth /help    # Show available commands you can use

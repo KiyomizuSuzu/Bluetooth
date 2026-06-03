@@ -1,7 +1,7 @@
 # Bluetooth
 This is a simple command-line control for Bluetooth made in C#.
 
-## Commands
+### Commands
 ```bash
 Bluetooth /on      # Turn Bluetooth on
 Bluetooth /off     # Turn Bluetooth off
@@ -9,7 +9,7 @@ Bluetooth /status  # Show current Bluetooth status
 Bluetooth /help    # Show available commands you can use
 ```
 
-# AGPL-3.0 license
+## AGPL-3.0 license
 Source: https://www.gnu.org/licenses/agpl-3.0.en.html
 
 This is an OSI-approved open-source license. Free to fork, modify, and redistribute under the terms of the AGPL-3.0.

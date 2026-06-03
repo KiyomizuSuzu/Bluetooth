@@ -1,4 +1,4 @@
-# Bluetooth CLI
+# Bluetooth
 
 This is a simple command-line control for Bluetooth made in C#.
 

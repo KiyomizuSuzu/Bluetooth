@@ -8,6 +8,12 @@ Bluetooth /off     # Turn Bluetooth off
 Bluetooth /status  # Show current Bluetooth status
 Bluetooth /help    # Show available commands you can use
 ```
+### To build the source code
+Ensure you have .NET 10 installed from https://dotnet.microsoft.com/en-us/download/dotnet/10.0
+Then, run the following command below:
+```bash
+dotnet publish -c Release
+```
 
 ## AGPL-3.0 license
 Source: https://www.gnu.org/licenses/agpl-3.0.en.html

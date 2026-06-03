@@ -1,9 +1,7 @@
 # Bluetooth
-
 This is a simple command-line control for Bluetooth made in C#.
 
 ## Commands
-
 ```bash
 Bluetooth /on      # Turn Bluetooth on
 Bluetooth /off     # Turn Bluetooth off

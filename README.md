@@ -2,7 +2,7 @@
 This is a simple command-line control for Bluetooth made in C#.
 
 ### Commands
-```bash
+```powershell
 Bluetooth /on      # Turn Bluetooth on
 Bluetooth /off     # Turn Bluetooth off
 Bluetooth /status  # Show current Bluetooth status

@@ -1,5 +1,5 @@
 # Bluetooth
-This is a simple command-line control for Bluetooth made in C#.
+This is a simple command-line interface for Bluetooth made in C#.
 
 ### Commands
 ```powershell

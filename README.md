@@ -1,4 +1,4 @@
-![Bluetooth Flowchart](Bluetooth.drawio.svg)
+![Flowchart](Bluetooth.drawio.svg)
 # Bluetooth
 This is a simple command-line interface for Bluetooth made in C#.
 

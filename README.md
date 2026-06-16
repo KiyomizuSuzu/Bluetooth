@@ -8,8 +8,11 @@ Bluetooth /off     # Turn Bluetooth off
 Bluetooth /status  # Show current Bluetooth status
 Bluetooth /help    # Show available commands you can use
 ```
-### How it works
+### How it works (Flowchart)
+---
 ![Flowchart](Bluetooth.drawio.svg)
+
+---
 
 ### To build the source code
 Ensure you have .NET 10 SDK installed from https://dotnet.microsoft.com/en-us/download/dotnet/10.0

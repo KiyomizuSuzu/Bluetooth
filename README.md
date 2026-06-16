@@ -1,4 +1,3 @@
-![Flowchart](Bluetooth.drawio.svg)
 # Bluetooth
 This is a simple command-line interface for Bluetooth made in C#.
 
@@ -9,6 +8,9 @@ Bluetooth /off     # Turn Bluetooth off
 Bluetooth /status  # Show current Bluetooth status
 Bluetooth /help    # Show available commands you can use
 ```
+### How it works
+![Flowchart](Bluetooth.drawio.svg)
+
 ### To build the source code
 Ensure you have .NET 10 SDK installed from https://dotnet.microsoft.com/en-us/download/dotnet/10.0
 

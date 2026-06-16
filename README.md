@@ -1,3 +1,5 @@
+![Bluetooth Flowchart](Bluetooth-drawio.svg)
+
 # Bluetooth
 This is a simple command-line interface for Bluetooth made in C#.
 
@@ -25,3 +27,4 @@ By complying with the AGPL-3.0 license, you must keep the same license for the c
 Anyone who receives the software (including through purchase or as a service) must also be provided access to the corresponding source code under the same license.
 
 See the [LICENSE.txt](https://github.com/KiyomizuSuzu/Bluetooth/blob/main/LICENSE.txt) for the full license text.
+

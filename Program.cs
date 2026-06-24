@@ -5,7 +5,6 @@ class Program {
     static async Task Main(string[] args) {
         if (args.Length == 0) {
             Console.WriteLine("You didn't provide any arguements, please type /help to know how to use it properly.");
-            return;
         }
         else {
             string command = args[0].ToLower().TrimStart('/');

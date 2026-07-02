@@ -1,5 +1,3 @@
-[English](#english) | [日本語](#日本語)
-
 <details>
 <summary>English</summary>
 # Bluetooth

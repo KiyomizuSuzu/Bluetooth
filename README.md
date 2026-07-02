@@ -13,11 +13,7 @@ Bluetooth /help    # 使えるコマンド一覧を表示
 ```
 ### 動作の流れ（フローチャート）
 ---
-
-
 ![Flowchart](Bluetooth.drawio.svg)
-
-
 
 ---
 

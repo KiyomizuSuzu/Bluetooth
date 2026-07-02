@@ -1,3 +1,5 @@
+[English](./README.md) | [日本語](./README.ja.md)
+
 # Bluetooth
 This is a simple command-line interface for Bluetooth made in C#.
 

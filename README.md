@@ -1,6 +1,6 @@
 [English](#english) | [日本語](#日本語)
 
-# English
+#English
 # Bluetooth
 This is a simple command-line interface for Bluetooth made in C#.
 
@@ -35,7 +35,7 @@ Anyone who receives the software (including through purchase or as a service) mu
 
 See the [LICENSE.txt](https://github.com/KiyomizuSuzu/Bluetooth/blob/main/LICENSE.txt) for the full license text.
 
-# 日本語
+#日本語
 [English](./README.md) | [日本語](./README.ja.md)
 
 # Bluetooth

@@ -60,7 +60,7 @@ Bluetooth /help    # 使えるコマンド一覧を表示
 ---
 
 ### ビルド方法
-.NET 10 SDKが必要。https://dotnet.microsoft.com/en-us/download/dotnet/10.0 からインストールできる。
+.NET 10 SDKが必要。https://dotnet.microsoft.com/ja-jp/download/dotnet/10.0 からインストールできる。
 
 リポジトリのルートでPowerShellを開き、以下を実行するだけ。
 ```powershell
@@ -68,7 +68,7 @@ dotnet publish -c Release
 ```
 
 ## AGPL-3.0 ライセンス
-参照：https://www.gnu.org/licenses/agpl-3.0.en.html
+参照：https://www.gnu.org/licenses/agpl-3.0.ja.html
 
 [OSI承認済み](https://opensource.org/licenses?ls=GNU+Affero+General+Public+License+version+3)のオープンソースライセンス。AGPL-3.0の条件のもとで、自由にフォーク・改変・再配布してもらって構わない。
 

@@ -68,7 +68,7 @@ dotnet publish -c Release
 ```
 
 ## AGPL-3.0 ライセンス
-参照：https://www.gnu.org/licenses/agpl-3.0.ja.html
+参照：https://licenses.opensource.jp/AGPL-3.0/AGPL-3.0.html
 
 [OSI承認済み](https://opensource.org/licenses?ls=GNU+Affero+General+Public+License+version+3)のオープンソースライセンス。AGPL-3.0の条件のもとで、自由にフォーク・改変・再配布してもらって構わない。
 

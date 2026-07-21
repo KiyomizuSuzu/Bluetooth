@@ -1,9 +1,7 @@
-<details>
-<summary>日本語</summary>
+<details><summary>日本語</summary>
 
 # Bluetooth
 C#で作ったシンプルなBluetooth操作用CLI。
-
 ### コマンド
 ```powershell
 Bluetooth /on      # Bluetoothをオンにする
@@ -14,9 +12,7 @@ Bluetooth /help    # 使えるコマンド一覧を表示
 ### 動作の流れ（フローチャート）
 ---
 ![Flowchart](Bluetooth.drawio.svg)
-
 ---
-
 ### ビルド方法
 .NET 10 SDKが必要。https://dotnet.microsoft.com/ja-jp/download/dotnet/10.0 からインストールできる。
 
@@ -24,7 +20,6 @@ Bluetooth /help    # 使えるコマンド一覧を表示
 ```powershell
 dotnet publish -c Release
 ```
-
 ## AGPL-3.0 ライセンス
 参照：https://licenses.opensource.jp/AGPL-3.0/AGPL-3.0.html
 
@@ -36,12 +31,10 @@ AGPL-3.0に従う以上、対象コードは同じライセンスのまま維持
 </details>
 
 ---
-<details open>
-<summary>English</summary>
+<details open><summary>English</summary>
 
 # Bluetooth
 This is a simple command-line interface for Bluetooth made in C#.
-
 ### Commands
 ```powershell
 Bluetooth /on      # Turn Bluetooth on
@@ -54,7 +47,6 @@ Bluetooth /help    # Show available commands you can use
 ![Flowchart](Bluetooth.drawio.svg)
 
 ---
-
 ### To build the source code
 Ensure you have .NET 10 SDK installed from https://dotnet.microsoft.com/en-us/download/dotnet/10.0
 
@@ -62,7 +54,6 @@ Then, open up Powershell in the repository root directory and run the following 
 ```powershell
 dotnet publish -c Release
 ```
-
 ## AGPL-3.0 license
 Source: https://www.gnu.org/licenses/agpl-3.0.en.html
 

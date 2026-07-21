@@ -9,16 +9,17 @@ class Program {
         else {
             string command = args[0].ToLower().TrimStart('/');
             IReadOnlyList<Radio> radios = await Radio.GetRadiosAsync();
-            bool DeviceNotFound = true;
-            foreach (Radio device in radios) {
-                bool findBluetooth = device.Kind == RadioKind.Bluetooth;
-                if (findBluetooth) {
-                    DeviceNotFound = false;
-                    if (command == "off") {
-                        bool bluetoothIsOn = device.State == RadioState.On;
-                        if (bluetoothIsOn) {
+            Radio? bluetooth = radios.FirstOrDefault(device => device.Kind == RadioKind.Bluetooth);
+            if (bluetooth is null) {
+                Console.WriteLine("No compatible Bluetooth devices were found.");
+                return;
+            }
+            else {
+                switch (command) {
+                    case "off":
+                        if (bluetooth.State == RadioState.On) {
                             try {
-                                await device.SetStateAsync(RadioState.Off);
+                                await bluetooth.SetStateAsync(RadioState.Off);
                                 Console.WriteLine("Bluetooth successfully turned OFF");
                             }
                             catch (Exception ERROR) {
@@ -28,12 +29,11 @@ class Program {
                         else {
                             Console.WriteLine("Bluetooth is already turned off.");
                         }
-                    }
-                    else if (command == "on") {
-                        bool bluetoothIsOff = device.State == RadioState.Off;
-                        if (bluetoothIsOff) {
+                        break;
+                    case "on":
+                        if (bluetooth.State == RadioState.Off) {
                             try {
-                                await device.SetStateAsync(RadioState.On);
+                                await bluetooth.SetStateAsync(RadioState.On);
                                 Console.WriteLine("Bluetooth successfully turned ON");
                             }
                             catch (Exception ERROR) {
@@ -43,24 +43,21 @@ class Program {
                         else {
                             Console.WriteLine("Bluetooth is already turned on.");
                         }
-                    }
-                    else if (command == "status") {
-                        Console.WriteLine("Bluetooth state: " + device.State);
-                    }
-                    else if (command == "help") {
+                        break;
+                    case "status":
+                        Console.WriteLine("Bluetooth state: " + bluetooth.State);
+                        break;
+                    case "help":
                         Console.WriteLine("Usage:");
                         Console.WriteLine("/on      - Turn Bluetooth ON");
                         Console.WriteLine("/off     - Turn Bluetooth OFF");
                         Console.WriteLine("/status  - Show Bluetooth state");
-                        Console.WriteLine("/help    - List available commands that you can use");
-                    }
-                    else {
-                        Console.WriteLine("Unknown command. Check your spelling or type /help for correction.");
-                    }
+                        Console.WriteLine("/help    - List available commands");
+                        break;
+                    default:
+                        Console.WriteLine("Unknown command. Check your spelling or type /help.");
+                        break;
                 }
-            }
-            if (DeviceNotFound) {
-                Console.WriteLine("No compatible bluetooth devices were found.");
             }
         }
     }
